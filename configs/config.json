@@ -3,10 +3,10 @@
   // Search Configuration
   // ==================================================
   "search_settings": {
-    "search_days": 7,
-    "max_results": 50,
+    "search_days": 1,
+    "max_results": 30,
     "max_results_per_source": {}
-  },
+  }
 
   // ==================================================
   // Data Source Configuration

@@ -4,7 +4,7 @@
   // ==================================================
   "search_settings": {
     "search_days": 7,
-    "max_results": 100,
+    "max_results": 50,
     "max_results_per_source": {}
   },
 
@@ -13,8 +13,7 @@
   // ==================================================
   "data_sources": {
     "enabled": [
-      "arxiv",
-      "prl"
+      "arxiv"
     ],
     "journals": [],
     "reports_by_source": true
@@ -25,7 +24,11 @@
   // ==================================================
   "target_domains": {
     "domains": [
-      "quant-ph"
+      "cs.CV",
+      "cs.RO",
+      "cs.AI",
+      "cs.LG",
+      "eess.SY"
     ]
   },
 
@@ -35,7 +38,44 @@
   "keywords": {
     "primary_keywords": {
       "weight": 1.0,
-      "keywords": []
+      "keywords": [
+        "agricultural machinery",
+        "smart agricultural machinery",
+        "intelligent agricultural machinery",
+        "agricultural robot",
+        "field robot",
+        "autonomous tractor",
+        "autonomous agricultural vehicle",
+        "agricultural vehicle",
+        "machine vision",
+        "computer vision",
+        "visual perception",
+        "perception",
+        "crop detection",
+        "fruit detection",
+        "weed detection",
+        "obstacle detection",
+        "row detection",
+        "semantic segmentation",
+        "instance segmentation",
+        "object detection",
+        "navigation",
+        "visual navigation",
+        "path planning",
+        "motion planning",
+        "decision making",
+        "trajectory tracking",
+        "control",
+        "motion control",
+        "model predictive control",
+        "MPC",
+        "reinforcement learning",
+        "sensor fusion",
+        "precision agriculture",
+        "agricultural automation",
+        "autonomous farming",
+        "field autonomy"
+      ]
     },
     "enable_reference_extraction": true,
     "reference_keywords_config": {
@@ -56,7 +96,7 @@
         }
       }
     },
-    "research_context": ""
+    "research_context": "我关注智能化农机方向，研究链条是视觉做感知，算法做决策，控制做执行。希望重点筛选农业机器人、自动驾驶农机、田间自主作业、多传感器融合、视觉导航、目标检测、语义分割、路径规划、轨迹跟踪、强化学习控制、模型预测控制等相关论文。优先关注与农机、农业机器人、农业车辆、田间场景感知-决策-控制闭环相关的工作。"
   },
 
   // ==================================================
@@ -129,10 +169,10 @@
     "top_n": 5,
     "channels": {
       "email": {
-        "enabled": false
+        "enabled": true
       },
       "wechat_work": {
-        "enabled": true
+        "enabled": false
       },
       "dingtalk": {
         "enabled": false

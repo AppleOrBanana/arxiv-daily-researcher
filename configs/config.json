@@ -6,7 +6,7 @@
     "search_days": 1,
     "max_results": 30,
     "max_results_per_source": {}
-  }
+  },
 
   // ==================================================
   // Data Source Configuration

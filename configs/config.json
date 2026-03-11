@@ -13,12 +13,24 @@
   // ==================================================
   "data_sources": {
     "enabled": [
-      "arxiv"
+      "arxiv",
+      "openalex"
     ],
-    "journals": [],
+    "journals": [
+      "be",
+      "cea",
+      "precision_agriculture",
+      "smart_agricultural_technology",
+      "jfr",
+      "computers_in_industry",
+      "journal_of_terramechanics",
+      "applied_engineering_in_agriculture",
+      "agriculture",
+      "agronomy",
+      "ijabe"
+    ],
     "reports_by_source": true
   },
-
   // ==================================================
   // ArXiv Target Domain Configuration
   // ==================================================

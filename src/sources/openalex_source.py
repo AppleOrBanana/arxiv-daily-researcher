@@ -94,6 +94,62 @@ JOURNAL_ISSN_MAP = {
         "issn": ["1367-2630"],
         "display_name": "NJP",
     },
+        # 农业工程 / 智慧农业 / 农机与机器人相关期刊
+    "be": {
+        "full_name": "Biosystems Engineering",
+        "issn": ["1537-5110", "1537-5129"],
+        "display_name": "Biosyst. Eng.",
+    },
+    "cea": {
+        "full_name": "Computers and Electronics in Agriculture",
+        "issn": ["0168-1699", "1872-7107"],
+        "display_name": "Comput. Electron. Agric.",
+    },
+    "precision_agriculture": {
+        "full_name": "Precision Agriculture",
+        "issn": ["1385-2256", "1573-1618"],
+        "display_name": "Precis. Agric.",
+    },
+    "smart_agricultural_technology": {
+        "full_name": "Smart Agricultural Technology",
+        "issn": ["2772-3755"],
+        "display_name": "Smart Agric. Technol.",
+    },
+    "jfr": {
+        "full_name": "Journal of Field Robotics",
+        "issn": ["1556-4959", "1556-4967"],
+        "display_name": "J. Field Robot.",
+    },
+    "computers_in_industry": {
+        "full_name": "Computers in Industry",
+        "issn": ["0166-3615", "1872-6194"],
+        "display_name": "Comput. Ind.",
+    },
+    "journal_of_terramechanics": {
+        "full_name": "Journal of Terramechanics",
+        "issn": ["0022-4898"],
+        "display_name": "J. Terramech.",
+    },
+    "applied_engineering_in_agriculture": {
+        "full_name": "Applied Engineering in Agriculture",
+        "issn": ["0883-8542"],
+        "display_name": "Appl. Eng. Agric.",
+    },
+    "agriculture": {
+        "full_name": "Agriculture",
+        "issn": ["2077-0472"],
+        "display_name": "Agriculture",
+    },
+    "agronomy": {
+        "full_name": "Agronomy",
+        "issn": ["2073-4395"],
+        "display_name": "Agronomy",
+    },
+    "ijabe": {
+        "full_name": "International Journal of Agricultural and Biological Engineering",
+        "issn": ["1934-6344", "1934-6352"],
+        "display_name": "IJABE",
+    },
 }
 
 

@@ -46,57 +46,43 @@
         "field robot",
         "autonomous tractor",
         "autonomous agricultural vehicle",
-        "agricultural vehicle",
-        "machine vision",
-        "computer vision",
-        "visual perception",
-        "perception",
+        "precision agriculture",
+        "agricultural automation",
+        "orchard robot",
+        "harvesting robot",
+        "weeding robot",
         "crop detection",
         "fruit detection",
         "weed detection",
         "obstacle detection",
         "row detection",
-        "semantic segmentation",
-        "instance segmentation",
-        "object detection",
-        "navigation",
         "visual navigation",
-        "path planning",
-        "motion planning",
-        "decision making",
         "trajectory tracking",
-        "control",
-        "motion control",
         "model predictive control",
         "MPC",
-        "reinforcement learning",
-        "sensor fusion",
-        "precision agriculture",
-        "agricultural automation",
-        "autonomous farming",
-        "field autonomy"
+        "sensor fusion"
       ]
     },
-    "enable_reference_extraction": true,
+    "enable_reference_extraction": false,
     "reference_keywords_config": {
-      "max_keywords": 10,
-      "similarity_threshold": 0.75,
+      "max_keywords": 0,
+      "similarity_threshold": 0.8,
       "weight_distribution": {
         "high_importance": {
           "weight": 1.0,
-          "count": 3
+          "count": 0
         },
         "medium_importance": {
           "weight": 0.2,
-          "count": 5
+          "count": 0
         },
         "low_importance": {
           "weight": 0.1,
-          "count": 2
+          "count": 0
         }
       }
     },
-    "research_context": "我关注智能化农机方向，研究链条是视觉做感知，算法做决策，控制做执行。希望重点筛选农业机器人、自动驾驶农机、田间自主作业、多传感器融合、视觉导航、目标检测、语义分割、路径规划、轨迹跟踪、强化学习控制、模型预测控制等相关论文。优先关注与农机、农业机器人、农业车辆、田间场景感知-决策-控制闭环相关的工作。"
+    "research_context": "我只关注与农机领域强相关的论文，宁可漏掉一些通用方法论文，也不希望收到普通机器人、普通控制或普通机器学习论文。优先保留与农业机械、农业机器人、自动驾驶拖拉机、果园机器人、采收机器人、除草机器人、田间自主作业直接相关的工作。方法上重点关注农机视觉感知、果实/杂草/障碍物检测、作物行识别、田间视觉导航、轨迹跟踪、模型预测控制、多传感器融合，但前提必须是农业或农机应用场景明确。"
   },
 
   // ==================================================
@@ -112,10 +98,10 @@
       "bonus_points": 5.0
     },
     "passing_score_formula": {
-      "base_score": 5.0,
+      "base_score": 8.0,
       "weight_coefficient": 3.0
     },
-    "include_all_in_report": true
+    "include_all_in_report": false
   },
 
   // ==================================================
